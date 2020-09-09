@@ -1,0 +1,104 @@
+{
+  "uid" : "8b6fbf2d0b883c39",
+  "name" : "test_user_login_3",
+  "fullName" : "case.test_user_login.Login_user#test_user_login_3",
+  "historyId" : "c9208625462822c769de25bce1dbccb3",
+  "time" : {
+    "start" : 1599382271723,
+    "stop" : 1599382271901,
+    "duration" : 178
+  },
+  "description" : "\n        1.正确的用户名密码  2.正确的用户名，错误的密码  3.不存在的帐号登录\n        ",
+  "descriptionHtml" : "<pre><code>    1.正确的用户名密码  2.正确的用户名，错误的密码  3.不存在的帐号登录\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1599382271259,
+      "stop" : 1599382271259,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1599382272130,
+      "stop" : 1599382272130,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Login_user"
+  }, {
+    "name" : "host",
+    "value" : "V_LFJJLIU-NB0"
+  }, {
+    "name" : "thread",
+    "value" : "9800-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_user_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "78ca45c397e7e602",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599382206233,
+        "stop" : 1599382206421,
+        "duration" : 188
+      }
+    }, {
+      "uid" : "555bcbe09f9ca58c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599381727983,
+        "stop" : 1599381728155,
+        "duration" : 172
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b6fbf2d0b883c39.json",
+  "parameterValues" : [ ]
+}

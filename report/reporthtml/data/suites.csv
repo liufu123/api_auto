@@ -1,0 +1,19 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Sep 06 16:51:12 CST 2020","Sun Sep 06 16:51:12 CST 2020","169","case","test_user_registered","Test_registered","","","test_userregistered_fail","用户已注册"
+"passed","Sun Sep 06 16:51:10 CST 2020","Sun Sep 06 16:51:11 CST 2020","453","case","test_update_user_extinfo","TestUpdate_userinfo","","","test_update_user_info[postman]","修改用户的扩展信息"
+"failed","Sun Sep 06 16:51:11 CST 2020","Sun Sep 06 16:51:11 CST 2020","214","case","test_update_user_extinfo","TestUpdate_userinfo","","","test_update_user_info[99999999]","修改用户的扩展信息"
+"passed","Sun Sep 06 16:51:11 CST 2020","Sun Sep 06 16:51:12 CST 2020","223","case","test_user_login","Login_user","","","test_user_login_4","
+        1.正确的用户名密码  2.正确的用户名，错误的密码  3.不存在的帐号登录
+        "
+"passed","Sun Sep 06 16:51:11 CST 2020","Sun Sep 06 16:51:11 CST 2020","178","case","test_user_login","Login_user","","","test_user_login_3","
+        1.正确的用户名密码  2.正确的用户名，错误的密码  3.不存在的帐号登录
+        "
+"passed","Sun Sep 06 16:51:11 CST 2020","Sun Sep 06 16:51:11 CST 2020","211","case","test_user_login","Login_user","","","test_user_login_2","
+        1.正确的用户名密码  2.正确的用户名，错误的密码  3.不存在的帐号登录
+        "
+"failed","Sun Sep 06 16:51:10 CST 2020","Sun Sep 06 16:51:10 CST 2020","228","case","test_get_userlist","Test_pytest","","","test_get_user",""
+"passed","Sun Sep 06 16:51:11 CST 2020","Sun Sep 06 16:51:11 CST 2020","20","case","test_user_login","Login_user","","","test_error_app_key","错误的app_key参数"
+"passed","Sun Sep 06 16:51:12 CST 2020","Sun Sep 06 16:51:12 CST 2020","207","case","test_user_registered","Test_registered","","","test_userregistered_success","注册用户成功"
+"passed","Sun Sep 06 16:51:11 CST 2020","Sun Sep 06 16:51:11 CST 2020","224","case","test_user_login","Login_user","","","test_user_login_1","
+        1.正确的用户名密码  2.正确的用户名，错误的密码  3.不存在的帐号登录
+        "

@@ -1,0 +1,78 @@
+{
+  "uid" : "eac88dc17ef056c4",
+  "name" : "test_get_user",
+  "fullName" : "case.test_get_userlist.Test_pytest#test_get_user",
+  "historyId" : "2c50d8ca34bd580915dd5636cf3e8516",
+  "time" : {
+    "start" : 1599382270276,
+    "stop" : 1599382270504,
+    "duration" : 228
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '刘付大佬呀' == '刘付大佬'\n  - 刘付大佬呀\n  ?     -\n  + 刘付大佬",
+  "statusTrace" : "self = <case.test_get_userlist.Test_pytest object at 0x0000000003D68348>\n\n    def test_get_user(self):\n        self.resp = self.a.get_user_list(method=\"post\")\n        self.value = self.b.get_value_by_keyword(self.resp, \"nickname\")\n>       assert self.value==\"刘付大佬\"\nE       AssertionError: assert '刘付大佬呀' == '刘付大佬'\nE         - 刘付大佬呀\nE         ?     -\nE         + 刘付大佬\n\ncase\\test_get_userlist.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_userlist"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_pytest"
+  }, {
+    "name" : "host",
+    "value" : "V_LFJJLIU-NB0"
+  }, {
+    "name" : "thread",
+    "value" : "9800-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_get_userlist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "54be77ece0848b0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599382204823,
+        "stop" : 1599382205007,
+        "duration" : 184
+      }
+    }, {
+      "uid" : "6da3dc9c31f22c54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599381726563,
+        "stop" : 1599381726751,
+        "duration" : 188
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "eac88dc17ef056c4.json",
+  "parameterValues" : [ ]
+}
