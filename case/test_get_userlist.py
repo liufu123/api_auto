@@ -9,8 +9,8 @@ class Test_pytest:
 
     def test_get_user(self):
         self.resp = self.a.get_user_list(method="post")
-        self.value = self.b.get_value_by_keyword(self.resp, "nickname")
-        assert self.value=="刘付大佬呀"
+        self.value = self.b.get_value_by_keyword(self.resp, "err_code")
+        assert self.value==0
 
 if __name__ == '__main__':
     pytest.main(['./test_get_userlist.py'])
