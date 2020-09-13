@@ -3,6 +3,7 @@ from interface.get_user_list import Get_UserList
 import pytest
 
 class Test_pytest:
+    """获取用户列表接口测试"""
     def setup_class(self):
         self.a = Get_UserList()
         self.b = Get_Keyword()
