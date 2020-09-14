@@ -1,0 +1,86 @@
+{
+  "uid" : "355f62cbd926f0e7",
+  "name" : "test_error_app_key",
+  "fullName" : "case.test_login_pytest.Test_Login_user#test_error_app_key",
+  "historyId" : "c65a9a8f558881df192a38af12688d4e",
+  "time" : {
+    "start" : 1599833745622,
+    "stop" : 1599833745644,
+    "duration" : 22
+  },
+  "description" : "错误的app_key参数",
+  "descriptionHtml" : "<p>错误的app_key参数</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1599833744688,
+      "stop" : 1599833744688,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1599833745645,
+      "stop" : 1599833745645,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login_user"
+  }, {
+    "name" : "host",
+    "value" : "V_LFJJLIU-NB0"
+  }, {
+    "name" : "thread",
+    "value" : "8492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "355f62cbd926f0e7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "e6fa05e473a50bc5",
+  "name" : "test_update_user_info[postman]",
+  "fullName" : "case.test_update_user_extinfo.TestUpdate_userinfo#test_update_user_info",
+  "historyId" : "e934914e412544404cc40c0971a01ba7",
+  "time" : {
+    "start" : 1599381726751,
+    "stop" : 1599381727234,
+    "duration" : 483
+  },
+  "description" : "修改用户的扩展信息",
+  "descriptionHtml" : "<p>修改用户的扩展信息</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_update_user_extinfo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUpdate_userinfo"
+  }, {
+    "name" : "host",
+    "value" : "V_LFJJLIU-NB0"
+  }, {
+    "name" : "thread",
+    "value" : "7596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_update_user_extinfo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "username",
+    "value" : "'postman'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6fa05e473a50bc5.json",
+  "parameterValues" : [ "'postman'" ]
+}

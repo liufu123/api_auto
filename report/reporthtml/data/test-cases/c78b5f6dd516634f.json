@@ -1,0 +1,86 @@
+{
+  "uid" : "c78b5f6dd516634f",
+  "name" : "test_admin_del_oneself",
+  "fullName" : "case.test_del_user.Test_del_user#test_admin_del_oneself",
+  "historyId" : "35291c9dbc27a3872b11b8d393f16b25",
+  "time" : {
+    "start" : 1599985341958,
+    "stop" : 1599985342588,
+    "duration" : 630
+  },
+  "description" : "管理员不能删除自己的帐号",
+  "descriptionHtml" : "<p>管理员不能删除自己的帐号</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1599985339975,
+      "stop" : 1599985339977,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1599985343137,
+      "stop" : 1599985343137,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_del_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_del_user"
+  }, {
+    "name" : "host",
+    "value" : "V_LFJJLIU-NB0"
+  }, {
+    "name" : "thread",
+    "value" : "22088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_del_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c78b5f6dd516634f.json",
+  "parameterValues" : [ ]
+}

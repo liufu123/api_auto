@@ -1,0 +1,86 @@
+{
+  "uid" : "50b9b7054e60cf16",
+  "name" : "test_error_app_key",
+  "fullName" : "case.test_login_pytest.Test_Login_user#test_error_app_key",
+  "historyId" : "c65a9a8f558881df192a38af12688d4e",
+  "time" : {
+    "start" : 1599986834353,
+    "stop" : 1599986834373,
+    "duration" : 20
+  },
+  "description" : "错误的app_key参数",
+  "descriptionHtml" : "<p>错误的app_key参数</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1599986833448,
+      "stop" : 1599986833449,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1599986834373,
+      "stop" : 1599986834373,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login_user"
+  }, {
+    "name" : "host",
+    "value" : "V_LFJJLIU-NB0"
+  }, {
+    "name" : "thread",
+    "value" : "22664-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50b9b7054e60cf16.json",
+  "parameterValues" : [ ]
+}

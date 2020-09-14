@@ -1,0 +1,121 @@
+{
+  "uid" : "fbcc2ef9dba3fcd2",
+  "name" : "test_get_user_role[user]",
+  "fullName" : "case.test_get_userlist.Test_pytest#test_get_user_role",
+  "historyId" : "644c2cb1aae47110a316154bb725a393",
+  "time" : {
+    "start" : 1599987457885,
+    "stop" : 1599987458081,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1599987457509,
+      "stop" : 1599987457510,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1599987459228,
+      "stop" : 1599987459228,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_userlist"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_pytest"
+  }, {
+    "name" : "host",
+    "value" : "V_LFJJLIU-NB0"
+  }, {
+    "name" : "thread",
+    "value" : "22832-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_get_userlist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "role",
+    "value" : "'user'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e5229c2a6de81133",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599986832138,
+        "stop" : 1599986832304,
+        "duration" : 166
+      }
+    }, {
+      "uid" : "a2bcf64400f389f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599986293935,
+        "stop" : 1599986294114,
+        "duration" : 179
+      }
+    }, {
+      "uid" : "a71bd2cee9e0c36d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599985557846,
+        "stop" : 1599985558053,
+        "duration" : 207
+      }
+    }, {
+      "uid" : "bb69f371c4d6456b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599985343791,
+        "stop" : 1599985343967,
+        "duration" : 176
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbcc2ef9dba3fcd2.json",
+  "parameterValues" : [ "'user'" ]
+}

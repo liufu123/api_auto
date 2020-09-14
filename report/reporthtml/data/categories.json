@@ -4,27 +4,10 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert '刘付大佬呀' == '刘付大佬'\n  - 刘付大佬呀\n  ?     -\n  + 刘付大佬",
-      "children" : [ {
-        "name" : "test_get_user",
-        "uid" : "eac88dc17ef056c4",
-        "parentUid" : "7f69a2e14e8b3a1b66d9aa68aeff04d9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1599382270276,
-          "stop" : 1599382270504,
-          "duration" : 228
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7f69a2e14e8b3a1b66d9aa68aeff04d9"
-    }, {
       "name" : "AssertionError: 判断登录是否成功，0表示成功。当前的result值为：1\nassert 1 == 0",
       "children" : [ {
         "name" : "test_update_user_info[99999999]",
-        "uid" : "6c5f45ea42784f27",
+        "uid" : "ab8a6de4b8b36eeb",
         "parentUid" : "df8cd7f60b6496412fb081ba29024e0d",
         "status" : "failed",
         "time" : {

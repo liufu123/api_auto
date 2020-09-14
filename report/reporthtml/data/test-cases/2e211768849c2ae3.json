@@ -1,0 +1,86 @@
+{
+  "uid" : "2e211768849c2ae3",
+  "name" : "test_not_admin_del",
+  "fullName" : "case.test_del_user.Test_del_user#test_not_admin_del",
+  "historyId" : "4add3b21698d73b869aee9f97e00cbab",
+  "time" : {
+    "start" : 1599986291691,
+    "stop" : 1599986292343,
+    "duration" : 652
+  },
+  "description" : "非管理员帐号不能删除其他用户",
+  "descriptionHtml" : "<p>非管理员帐号不能删除其他用户</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1599986290499,
+      "stop" : 1599986290500,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1599986293512,
+      "stop" : 1599986293512,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_del_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_del_user"
+  }, {
+    "name" : "host",
+    "value" : "V_LFJJLIU-NB0"
+  }, {
+    "name" : "thread",
+    "value" : "19516-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_del_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e211768849c2ae3.json",
+  "parameterValues" : [ ]
+}
